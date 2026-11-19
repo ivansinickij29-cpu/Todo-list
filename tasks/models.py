@@ -14,8 +14,6 @@ class Task(models.Model):
     deadline = models.DateTimeField(null=True, blank=True)
     is_done = models.BooleanField(default=False)
     tags = models.ManyToManyField(Tag)
-    
+
     def __str__(self):
-        return self.content [:50]
-
-
+        return self.content[:50]
