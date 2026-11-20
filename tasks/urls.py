@@ -5,6 +5,7 @@ from tasks.views import (TaskListView, TaskCreateView,
                          TaskUpdateView, TaskDeleteView)
 
 app_name = "tasks"
+
 urlpatterns = [
     path("", TaskListView.as_view(), name="task-list"),
     path("tasks/add/", TaskCreateView.as_view(), name="task-add"),

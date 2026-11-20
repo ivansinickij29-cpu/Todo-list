@@ -4,8 +4,6 @@ from django.views.generic import ListView, CreateView, UpdateView, DeleteView
 from django.shortcuts import get_object_or_404, redirect
 from tasks.models import Task, Tag
 
-app_name = "tasks"
-
 
 class TaskListView(ListView):
     model = Task
