@@ -16,7 +16,7 @@ for managing daily tasks.
 
 1. Clone the repository:
 
-   git clone https://github.com/ivansinickij29-cpu/Todo-list/pull/1
+   git clone https://github.com/ivansinickij29-cpu/Todo-list.git
 
 2. Navigate to the project directory:
 
