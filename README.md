@@ -20,19 +20,22 @@ for managing daily tasks.
 
 2. Navigate to the project directory:
 
-   cd YOUR_REPOSITORY
+   cd Todo-list
 
 3. Create a virtual environment:
 
-   python -m venv venv
+   python -m venv .venv
+
 
 4. Activate the virtual environment:
 
-   venv\Scripts\activate
+   .venv\Scripts\activate
+
 
 5. Install dependencies:
 
-   pip install -r requirements.txt
+  pip install -r requirements.txt
+
 
 6. Create a `.env` file based on `.env.example` and set the environment variables.
 
