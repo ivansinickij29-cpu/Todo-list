@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>{% if object %}Edit tag{% else %}Add tag{% endif %}</h1>
+
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Save</button>
+    <a href="{% url 'tasks:tag-list' %}">Cancel</a>
+  </form>
+{% endblock %}
